@@ -25,7 +25,7 @@ class ClienteController {
         const botaoApagar = document.createElement('button');
         botaoApagar.textContent = 'X';
         botaoApagar.addEventListener('click', (event) => {
-            console.log('removendo Cliente ' + cliente.toString());
+            console.log('removendo Cliente: ' + cliente.toString());
             this.clientes.remover(cliente.cpf);
             event.target.parentElement.remove();
         });

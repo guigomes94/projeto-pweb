@@ -1,9 +1,5 @@
-// let contaController = new ContaController();
-let clienteController = new ClienteController();
-
-clienteController.listar();
-
 /*
+let contaController = new ContaController();
 contaController.listar();
 const c1 = new Conta('1', 100);
 const p1 = new Poupanca('2', 100);
@@ -17,3 +13,7 @@ console.log('Poupanca: ' + p1.saldo);
 cb1.creditar(100);
 console.log('Conta Bonificada: ' + cb1.saldo.toFixed(2));
 */
+
+let clienteController = new ClienteController();
+
+clienteController.listar();
